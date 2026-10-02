@@ -1,0 +1,14 @@
+name: Forage (sony ltd) Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say hello
+        run: echo "Hello from my first GitHub Actions workflow!"
